@@ -170,6 +170,8 @@
 		E459264E1D45E3E200245244 /* MainTest */ = {
 			isa = PBXGroup;
 			children = (
+				E45E78E71D894018001AA1F4 /* Masonry */,
+				E45E78E61D893FE5001AA1F4 /* 3D Touch */,
 				E41B6AF01D767C7300BCDC6F /* TouchID（指纹解锁） */,
 				E4758CD71D72F39B00388D62 /* Widget */,
 				E4758CD61D72712200388D62 /* iOS10VoIP */,
@@ -203,6 +205,20 @@
 				E45AF6201D81660800C30F40 /* ffss.certSigningRequest */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E45E78E61D893FE5001AA1F4 /* 3D Touch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3D Touch";
+			sourceTree = "<group>";
+		};
+		E45E78E71D894018001AA1F4 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 		E4758CD61D72712200388D62 /* iOS10VoIP */ = {
