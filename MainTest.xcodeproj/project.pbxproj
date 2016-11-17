@@ -12,6 +12,7 @@
 		E414EFB81D7020470036E0F9 /* RunLoop in Resources */ = {isa = PBXBuildFile; fileRef = E414EFB71D7020470036E0F9 /* RunLoop */; };
 		E41B6AF31D767CFC00BCDC6F /* TouchIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41B6AF21D767CFC00BCDC6F /* TouchIDViewController.m */; };
 		E41B6AF61D76AE9400BCDC6F /* YLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41B6AF51D76AE9400BCDC6F /* YLMainViewController.m */; };
+		E44811741DDD8C43001D337A /* NSString+Character.m in Sources */ = {isa = PBXBuildFile; fileRef = E44811731DDD8C43001D337A /* NSString+Character.m */; };
 		E45926511D45E3E200245244 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E45926501D45E3E200245244 /* main.m */; };
 		E45926541D45E3E200245244 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E45926531D45E3E200245244 /* AppDelegate.m */; };
 		E45926571D45E3E200245244 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45926561D45E3E200245244 /* ViewController.m */; };
@@ -60,6 +61,8 @@
 		E41B6AF41D76AE9400BCDC6F /* YLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLMainViewController.h; sourceTree = "<group>"; };
 		E41B6AF51D76AE9400BCDC6F /* YLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLMainViewController.m; sourceTree = "<group>"; };
 		E41B6AFD1D76DE3700BCDC6F /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		E44811721DDD8C43001D337A /* NSString+Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Character.h"; sourceTree = "<group>"; };
+		E44811731DDD8C43001D337A /* NSString+Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Character.m"; sourceTree = "<group>"; };
 		E459264C1D45E3E200245244 /* MainTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45926501D45E3E200245244 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E45926521D45E3E200245244 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -148,6 +151,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E448116D1DDD8BC4001D337A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E448116E1DDD8BCD001D337A /* NSString */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E448116E1DDD8BCD001D337A /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				E44811721DDD8C43001D337A /* NSString+Character.h */,
+				E44811731DDD8C43001D337A /* NSString+Character.m */,
+			);
+			name = NSString;
+			sourceTree = "<group>";
+		};
 		E45926431D45E3E200245244 = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +190,7 @@
 		E459264E1D45E3E200245244 /* MainTest */ = {
 			isa = PBXGroup;
 			children = (
+				E448116D1DDD8BC4001D337A /* Category */,
 				E45E78E71D894018001AA1F4 /* Masonry */,
 				E45E78E61D893FE5001AA1F4 /* 3D Touch */,
 				E41B6AF01D767C7300BCDC6F /* TouchID（指纹解锁） */,
@@ -367,6 +388,7 @@
 				E414EFB51D701E410036E0F9 /* PropertyViewController.m in Sources */,
 				E459266A1D461D0B00245244 /* ViewController2.m in Sources */,
 				E45926541D45E3E200245244 /* AppDelegate.m in Sources */,
+				E44811741DDD8C43001D337A /* NSString+Character.m in Sources */,
 				E45926511D45E3E200245244 /* main.m in Sources */,
 				E414EFB01D6FE3C30036E0F9 /* ViewController3.m in Sources */,
 			);
